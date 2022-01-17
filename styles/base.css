@@ -13,3 +13,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
+
+.content {
+  padding: 48px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
