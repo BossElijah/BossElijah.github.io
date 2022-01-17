@@ -33,6 +33,12 @@ header {
   transition: background-color .15s ease, color .15s ease;
 }
 
+.nav-links li a.active {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
 .nav-links li a:hover {
   background-color: #fff;
   color: var(--color-primary);

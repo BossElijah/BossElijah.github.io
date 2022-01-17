@@ -1,0 +1,18 @@
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-decoration: none;
+  border: 5px solid var(--color-primary);
+  border-radius: 100px;
+  color: var(--color-primary);
+  padding: 32px 96px;
+  transition: color .25s ease, background-color .25s ease;
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
