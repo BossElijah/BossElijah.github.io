@@ -1,0 +1,10 @@
+.content {
+  padding: 48px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.content p, .content ul {
+  margin-bottom: 16px;
+}
