@@ -6,6 +6,7 @@
 
 :root {
   --header-height: 60px;
+  --footer-height: 100px;
   --color-primary: rgb(0, 70, 128);
 }
 

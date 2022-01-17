@@ -1,8 +1,10 @@
+.button-container {
+  display: flex;
+  height: calc(100vh - (var(--header-height) + var(--footer-height)));
+}
+
 .button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
   font-size: 30px;
   text-decoration: none;
   border: 5px solid var(--color-primary);

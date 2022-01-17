@@ -1,0 +1,27 @@
+footer {
+  height: var(--footer-height);
+  background-color: var(--color-primary);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+  margin-right: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #eee;
+}
