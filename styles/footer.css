@@ -10,7 +10,7 @@ footer {
 footer img {
   height: 30px;
   width: 30px;
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 footer a {
@@ -19,9 +19,14 @@ footer a {
   display: flex;
   align-items: center;
   font-size: 24px;
+  margin: 0 16px;
+  padding: 16px;
+  border-radius: 50px;
+  transition: outline .25s ease, color .25s ease, text-decoration .25s ease;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: #eee;
+  color: #ddd;
+  outline: 1px solid #ddd;
 }
