@@ -1,0 +1,24 @@
+h1 {
+  margin-bottom: 32px;
+}
+
+.project {
+  display: block;
+  padding: 32px 16px;
+  text-decoration: none;
+  color: #333;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  transition: color .25s ease, border-color .25s ease, background-color .25s ease;
+}
+
+.project:hover {
+  color: #666;
+  border-color: #ccc;
+  background-color: #eee;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
