@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.content p, .content ul {
+.content p, .content ul, .content h2 {
   margin-bottom: 16px;
 }
 
