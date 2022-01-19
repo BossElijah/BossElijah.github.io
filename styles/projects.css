@@ -22,3 +22,10 @@ h1 {
 h2 {
   margin-bottom: 8px;
 }
+
+.date {
+  font-size: 0.875rem;
+  color: #aaa;
+  margin-top: 16px;
+  margin-bottom: -16px;
+}
