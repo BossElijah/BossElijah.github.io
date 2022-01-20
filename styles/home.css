@@ -13,11 +13,11 @@
 }
 
 
-a {
+.text-link {
   color: var(--color-primary);
   text-decoration: none;
 }
 
-a:hover {
+.text-link:hover {
   text-decoration: underline;
 }
