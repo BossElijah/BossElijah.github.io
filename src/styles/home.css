@@ -3,7 +3,9 @@
   flex-direction: column;
 }
 
-.content p, .content ul, .content h2 {
+.content p,
+.content ul,
+.content h2 {
   margin-bottom: 16px;
 }
 
@@ -11,7 +13,6 @@
   border-radius: 50%;
   margin: 0 auto 2rem;
 }
-
 
 .text-link {
   color: var(--color-primary);

@@ -30,7 +30,7 @@ header {
   align-items: center;
   color: #fff;
   text-decoration: none;
-  transition: background-color .15s ease, color .15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .nav-links li a.active {
