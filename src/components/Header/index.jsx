@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => (
   <header>
     <Link to="/">
-      <img src="/img/logo.png" alt="BossElijah" class="header__logo" />
+      <img src="/img/logo.png" alt="BossElijah" className="header__logo" />
     </Link>
-    <ul class="nav-links">
+    <ul className="nav-links">
       <li>
         <NavLink to="/" activeClassName="active">
           Home

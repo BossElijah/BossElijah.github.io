@@ -1,8 +1,8 @@
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
-  const getAge = date => {
+  const getAge = (date) => {
     const today = new Date();
     const birthday = new Date(date);
     let age = today.getFullYear() - birthday.getFullYear();
@@ -18,16 +18,16 @@ const HomePage = () => {
       <Helmet>
         <title>Home | BossElijah</title>
       </Helmet>
-      <div class="content">
+      <div className="content">
         <img
           src="/img/picture.jpg"
           alt=""
           height="150px"
           width="150px"
-          class="picture"
+          className="picture"
         />
         <p>
-          I'm a {getAge('08.10.05')}-year-old front-end web developer who enjoys
+          I'm a {getAge("08.10.05")}-year-old front-end web developer who enjoys
           coding more than free time. Over the past few years I've spent a lot
           of time working with React and Drupal.
         </p>
@@ -46,8 +46,8 @@ const HomePage = () => {
           <li>(Coding... 😀)</li>
         </ul>
         <p>
-          I have two younger siblings called Micah and Josias. Micah is{' '}
-          {getAge('05.01.08')} years old while Josias is {getAge('01.10.11')}{' '}
+          I have two younger siblings called Micah and Josias. Micah is{" "}
+          {getAge("05.01.08")} years old while Josias is {getAge("01.10.11")}{" "}
           years old. They are both still in school.
         </p>
         <p>
@@ -73,19 +73,19 @@ const HomePage = () => {
         </ul>
         <p>
           In case you are wondering why I don't make many projects, it is
-          because I have work besides these{' '}
-          <Link class="text-link" to="/projects">
+          because I have work besides these{" "}
+          <Link className="text-link" to="/projects">
             projects
-          </Link>{' '}
+          </Link>{" "}
           that I do for fun.
         </p>
         <br />
         <br />
         <br />
-        <p style={{ textAlign: 'center' }}>
+        <p style={{ textAlign: "center" }}>
           More content should be coming soon!
         </p>
-        <p style={{ fontSize: '8rem', textAlign: 'center' }}>😀</p>
+        <p style={{ fontSize: "8rem", textAlign: "center" }}>😀</p>
       </div>
     </>
   );

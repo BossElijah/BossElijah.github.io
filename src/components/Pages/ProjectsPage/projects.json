@@ -1,0 +1,214 @@
+{
+  "projects": [
+    {
+      "url": "https://bosselijah-parallax.netlify.app/",
+      "title": "Parallax Scrolling",
+      "text": "Scroll down the screen to see the objects moving.",
+      "date": "April 2022"
+    },
+    {
+      "url": "https://boss-parallax.netlify.app",
+      "title": "Interactive Parallax",
+      "text": "Move your mouse around to see the cool parallax effect.",
+      "date": "April 2022"
+    },
+    {
+      "url": "https://bossword.netlify.app",
+      "title": "Password generator",
+      "text": "Generate hard-to-guess passwords with one single click",
+      "date": "April 2022"
+    },
+    {
+      "url": "https://codepen.io/BossElijah/pen/ZEvKMGw",
+      "title": "Duolingo button",
+      "text": "I made this because my friend teased me and said I couldn't make a button that looks like the ones from Duolingo'. 😀",
+      "date": "March 2022"
+    },
+    {
+      "url": "https://radial-gradient.netlify.app",
+      "title": "Radial gradient",
+      "text": "This is an interactive radial gradient website, where you can customize sizes, colors, etc.",
+      "date": "March 2022"
+    },
+    {
+      "url": "https://repeating-linear-gradient.netlify.app",
+      "title": "Linear gradient",
+      "text": "This is an interactive linear gradient website, where you can customize sizes, colors, etc.",
+      "date": "March 2022"
+    },
+    {
+      "url": "https://bosselijah-crwn.herokuapp.com/",
+      "title": "Crown Clothing",
+      "text": "This is an online clothing store supporting login, signup, adding products to card, and handling <b>fake</b> payments.",
+      "date": "March 2022"
+    },
+    {
+      "url": "https://github.com/BossElijah/ czech-vocab-chrome-extension",
+      "title": "Chrome extension: Cz,ech Vocab",
+      "text": "This chrome extension overrides the default \"New Tab\", and replaces it with a Czech word and it's definition.",
+      "date": "February 2022"
+    },
+    {
+      "url": "https://boss-game-rules.github.io",
+      "title": "Game Rules",
+      "text": "Here you can look up the rules for a board/card-game. This project is not done, nor further developed.",
+      "date": "February 2022"
+    },
+    {
+      "url": "https://calc-boss.netlify.app/",
+      "title": "Another calculator",
+      "text": "Built with pure React JS.",
+      "date": "January 2022"
+    },
+    {
+      "url": "https://bosselijah-chat.netlify.app/",
+      "title": "Chat program",
+      "text": "This is a chat program, that allows the user to login with their Google account, and then chat. It is built with React, Socket, and Firebase.",
+      "date": "January 2022"
+    },
+    {
+      "url": "https://animated-counters.netlify.app",
+      "title": "Animated counters",
+      "text": "This is a website with animated counters for followers and subscribers on social media.",
+      "date": "January 2022"
+    },
+    {
+      "url": "https://bosselijah.github.io/spinning-logos/",
+      "title": "Spinning logos",
+      "text": "This is a simple page with a bunch of react logos spinning around.",
+      "date": "January 2022"
+    },
+    {
+      "url": "https://bosselijah.github.io/,cool-hamburger-menu",
+      "title": "Fancy hamburger menu",
+      "text": "This is a hamburger menu with fancy hover and click effects.",
+      "date": "November 2021"
+    },
+    {
+      "url": "https://calculatorultimate.netlify.app",
+      "title": "Online calculator",
+      "text": "This online calculator can calculate simple calculations. It is programmed to handle math hierarchy too.",
+      "date": "November 2021"
+    },
+    {
+      "url": "https://userf0rm.netlify.app",
+      "title": "User form",
+      "text": "This basic user form is a plain form sample that I created in my first month of coding.",
+      "date": "October 2021"
+    },
+    {
+      "url": "https://trackcal0ries.netlify.app",
+      "title": "Tracalorie",
+      "text": "This is an app you can use to track all calories you put into your mouth. Every time you eat something, you just type it in there, and it will calculate the total amount for you.",
+      "date": "October 2021"
+    },
+    {
+      "url": "https://tasklist123.netlify.app",
+      "title": "Task list",
+      "text": "This is a very simple todo app.",
+      "date": "September 2021"
+    },
+    {
+      "url": "https://screensizer.netlify.app",
+      "title": "Screen sizer",
+      "text": "This website will show you the exact pixel size of your browser window.",
+      "date": "September 2021"
+    },
+    {
+      "url": "https://portfolio-website-sample.netlify.app",
+      "title": "Portfolio sample",
+      "text": "This is a sample portfolio website that can be an inspiration for others, who need a portfolio.",
+      "date": "August 2021"
+    },
+    {
+      "url": "https://numberguesser123.netlify.app",
+      "title": "Number guesser",
+      "text": "This is a number guessing game where you have to guess the correct number between one and 10.",
+      "date": "August 2021"
+    },
+    {
+      "url": "https://mouse-coordinates.netlify.app",
+      "title": "Mouse coordinates",
+      "text": "This is a web app that shows the coordinates of your mouse.",
+      "date": "July 2021"
+    },
+    {
+      "url": "https://colorcolor.netlify.app",
+      "title": "Color",
+      "text": "This is a useless color website where you can choose between various color themes with just one click.",
+      "date": "July 2021"
+    },
+    {
+      "url": "https://rvl.netlify.app",
+      "title": "Reveal IT clone",
+      "text": "This is a clone of 'http://revealit.dk'.",
+      "date": "June 2021"
+    },
+    {
+      "url": "https://githubfinder1234567865432134567.netlify.app",
+      "title": "Github Finder",
+      "text": "This application can be used to search through all Github users.",
+      "date": "May 2021"
+    },
+    {
+      "url": "https://h0telbt.netlify.app",
+      "title": "Hotel BT",
+      "text": "This is a basic sample website for a tiny hotel.",
+      "date": "April 2021"
+    },
+    {
+      "url": "https://edgeledgerultimate.netlify.app",
+      "title": "Edge Ledger",
+      "text": "This is a sample website for a business company.",
+      "date": "April 2021"
+    },
+    {
+      "url": "https://degreec0nverter.netlify.app",
+      "title": "Degree converter",
+      "text": "This degree converter can convert celcius to fahrenheit and opposite.",
+      "date": "March 2021"
+    },
+    {
+      "url": "https://l0an-calculator.netlify.app",
+      "title": "Loan calculator",
+      "text": "This online loan calculator can be used to calculate how much money you have to pay back per month, given the loan amount, the interest, and the years to repay.",
+      "date": "March 2021"
+    },
+    {
+      "url": "https://c0nvertcurrency.netlify.app",
+      "title": "Currency converter",
+      "text": "This is a currency converter that can convert Danish crowns to Czech crowns and opposite.",
+      "date": "March 2021"
+    },
+    {
+      "url": "https://b00klist.netlify.app",
+      "title": "Book list",
+      "text": "This is a booklist that can be used mainly by librarians to display a list of books, authors, and ISBN numbers.",
+      "date": "February 2021"
+    },
+    {
+      "url": "https://displaywriting.netlify.app",
+      "title": "Display Writing",
+      "text": "This is a useless app that will show what you write.",
+      "date": "January 2021"
+    },
+    {
+      "url": "https://filedrop-app.netlify.app",
+      "title": "Filedrop",
+      "text": "This is a useless application.",
+      "date": "January 2021"
+    },
+    {
+      "url": "https://chucknorrisjoke-generator.netlify.app",
+      "title": "Chuck Norris joke generator",
+      "text": "This web application can tell you as many Chuck Norris jokes as you wish.",
+      "date": "December 2020"
+    },
+    {
+      "url": "https://background-changeer.netlify.app",
+      "title": "Background changer",
+      "text": "This is a stupid website that will change background color whenever you move your mouse.",
+      "date": "November 2020"
+    }
+  ]
+}
