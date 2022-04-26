@@ -1,31 +1,18 @@
 footer {
   height: var(--footer-height);
   background-color: var(--color-primary);
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer img {
-  height: 30px;
-  width: 30px;
-  margin-right: 8px;
+.footer-item {
+  padding: 8px;
+  color: #111;
+  transition: color .25s ease;
 }
 
-footer a {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  margin: 0 16px;
-  padding: 16px;
-  border-radius: 50px;
-  transition: outline 0.25s ease;
-}
-
-footer a:hover {
-  outline: 1px solid #eee;
+.footer-item:hover {
   color: #eee;
 }
+
