@@ -8,14 +8,15 @@ import Footer from './components/Footer';
 import data from './data/data.json';
 
 const App = () => {
-  const { header, footer } = data;
+  const { header, pages, footer } = data;
+  const { projects } = pages;
 
   return (
     <BrowserRouter>
       <Header {...header} />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects" element={<ProjectsPage {...projects} />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer {...footer} />

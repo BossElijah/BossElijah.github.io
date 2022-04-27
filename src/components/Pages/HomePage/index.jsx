@@ -68,11 +68,6 @@ const HomePage = () => (
         </Link>{' '}
         that I do for fun.
       </p>
-      <br />
-      <br />
-      <br />
-      <p style={{ textAlign: 'center' }}>More content should be coming soon!</p>
-      <p style={{ fontSize: '8rem', textAlign: 'center' }}>😀</p>
     </div>
   </>
 );
