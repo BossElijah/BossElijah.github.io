@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import HomePage from './components/Pages/HomePage';
 import Header from './components/Header';
 import ContactPage from './components/Pages/ContactPage';
@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header {...header} />
       <div className="page-wrapper">
         <Routes>
@@ -38,7 +38,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer {...footer} />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
