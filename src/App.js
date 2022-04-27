@@ -26,15 +26,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header {...header} />
-      <Routes>
-        {pages.map(item => (
-          <Route
-            key={item.path}
-            path={item.path}
-            element={renderComponent(item)}
-          />
-        ))}
-      </Routes>
+      <div className="page-wrapper">
+        <Routes>
+          {pages.map(item => (
+            <Route
+              key={item.path}
+              path={item.path}
+              element={renderComponent(item)}
+            />
+          ))}
+        </Routes>
+      </div>
       <Footer {...footer} />
     </BrowserRouter>
   );

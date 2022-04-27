@@ -1,8 +1,5 @@
 .contact-page {
   min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
-  max-width: 600px;
-  padding: 2rem;
-  margin: 0 auto;
 }
 
 .first-wrapper {
