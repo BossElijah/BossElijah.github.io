@@ -1,14 +1,14 @@
 import { Helmet } from 'react-helmet';
+import ContactForm from '../../ContactForm';
 
-const ContactPage = ({ tabTitle, link }) => (
+const ContactPage = ({ tabTitle, title, contactForm }) => (
   <>
     <Helmet>
       <title>{tabTitle}</title>
     </Helmet>
-    <div className="button-container">
-      <a href={link.url} className="button">
-        {link.label}
-      </a>
+    <div className="contact-page">
+      <h1>{title}</h1>
+      <ContactForm {...contactForm} />
     </div>
   </>
 );

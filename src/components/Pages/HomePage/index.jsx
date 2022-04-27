@@ -8,24 +8,24 @@ const HomePage = ({ tabTitle, img, content }) => {
     .replace('josias-age', calculateAge('01.10.11'));
 
   return (
-  <>
-    <Helmet>
+    <>
+      <Helmet>
         <title>{tabTitle}</title>
-    </Helmet>
-    <div className="content">
+      </Helmet>
+      <div className="content">
         {img && (
-      <img
+          <img
             src={img.src}
             alt={img.alt}
-        height="150px"
-        width="150px"
-        className="picture"
-      />
+            height="150px"
+            width="150px"
+            className="picture"
+          />
         )}
         <div dangerouslySetInnerHTML={{ __html: content }} />
-    </div>
-  </>
-);
+      </div>
+    </>
+  );
 };
 
 export default HomePage;

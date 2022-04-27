@@ -249,9 +249,18 @@
     {
       "path": "/contact",
       "tabTitle": "Contact | BossElijah",
-      "link": {
-        "label": "Contact me",
-        "url": "mailto:eliasbruhn123@gmail.com"
+      "title": "Contact",
+      "contactForm": {
+        "success": {
+          "title": "Your message was sent successfully!",
+          "description": "I will reply as soon as possible."
+        },
+        "labels": {
+          "name": "Name",
+          "email": "Email",
+          "message": "Message",
+          "submit": "Submit"
+        }
       }
     }
   ],

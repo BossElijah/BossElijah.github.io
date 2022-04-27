@@ -1,20 +1,49 @@
-.button-container {
+.contact-page {
+  min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  max-width: 600px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.first-wrapper {
   display: flex;
-  height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.button {
-  margin: auto;
-  font-size: 30px;
-  text-decoration: none;
-  border: 5px solid var(--color-primary);
-  border-radius: 100px;
-  color: var(--color-primary);
-  padding: 32px 96px;
-  transition: color 0.25s ease, background-color 0.25s ease;
+.first-wrapper > div {
+  width: 50%;
 }
 
-.button:hover {
-  background-color: var(--color-primary);
-  color: #fff;
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.25rem;
+}
+
+input, textarea, .submit-button {
+  padding: 1rem;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+textarea {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  cursor: pointer;
+  transition: background-color .25s ease;
+}
+
+.submit-button:hover {
+  background-color: #bbb;
 }
