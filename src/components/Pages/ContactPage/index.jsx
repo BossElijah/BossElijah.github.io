@@ -1,13 +1,13 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 
-const ContactPage = () => (
+const ContactPage = ({ tabTitle, link }) => (
   <>
     <Helmet>
-      <title>Contact | BossElijah</title>
+      <title>{tabTitle}</title>
     </Helmet>
     <div className="button-container">
-      <a href="mailto:eliasbruhn123@gmail.com" className="button">
-        Contact me
+      <a href={link.url} className="button">
+        {link.label}
       </a>
     </div>
   </>

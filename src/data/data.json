@@ -237,7 +237,13 @@
         }
       ]
     },
-    "contact": {}
+    "contact": {
+      "tabTitle": "Contact | BossElijah",
+      "link": {
+        "label": "Contact me",
+        "url": "mailto:eliasbruhn123@gmail.com"
+      }
+    }
   },
   "footer": {
     "socialMedia": [

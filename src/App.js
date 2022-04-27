@@ -9,7 +9,7 @@ import data from './data/data.json';
 
 const App = () => {
   const { header, pages, footer } = data;
-  const { projects } = pages;
+  const { projects, contact } = pages;
 
   return (
     <BrowserRouter>
@@ -17,7 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage {...projects} />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage {...contact} />} />
       </Routes>
       <Footer {...footer} />
     </BrowserRouter>
