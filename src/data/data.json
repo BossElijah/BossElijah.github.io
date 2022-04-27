@@ -19,9 +19,18 @@
       }
     ]
   },
-  "pages": {
-    "home": {},
-    "projects": {
+  "pages": [
+    {
+      "path": "/",
+      "tabTitle": "Home | BossElijah",
+      "img": {
+        "src": "/img/picture.jpg",
+        "alt": "BossElijah"
+      },
+      "content": "<p>I'm a my-age-year-old front-end web developer who enjoys coding more than free time. Over the past few years I've spent a lot of time working with React and Drupal.</p><p>I am originally from Copenhagen (Denmark), but currently living in Prague (Czechia).</p><p>My hobbies are following:</p><ul><li>Soccer (football)</li><li>Skiing</li><li>Singing</li><li>Playing instruments</li><li>Hanging out with friends</li><li>Spending time with family</li><li>(Coding... 😀)</li></ul><p>I have two younger siblings called Micah and Josias. Micah is micah-age years old while Josias is josias-age years old. They are both still in school.</p><p>My dad, Andreas, works as a painter in a small entrepreneur company,while my mom, Anna, is working as a cheese maker.</p><h2>My compentences</h2><p>Here is a list of languages that I am used to working with.</p><ul><li>HTML</li><li>CSS / SCSS / SASS / LESS</li><li>Javascript</li><li>Typescript</li><li>PHP</li><li>Twig</li><li>YAML</li><li>JSON</li></ul><p>Here is a list of libraries that I am used to working with.</p><ul><li>Drupal (Twig, YAML, PHP)</li><li>React (JS / TS, JSON)</li></ul>"
+    },
+    {
+      "path": "/projects",
       "tabTitle": "Projects | BossElijah",
       "title": "My Projects",
       "projects": [
@@ -237,14 +246,15 @@
         }
       ]
     },
-    "contact": {
+    {
+      "path": "/contact",
       "tabTitle": "Contact | BossElijah",
       "link": {
         "label": "Contact me",
         "url": "mailto:eliasbruhn123@gmail.com"
       }
     }
-  },
+  ],
   "footer": {
     "socialMedia": [
       {

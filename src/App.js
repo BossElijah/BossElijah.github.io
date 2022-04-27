@@ -9,15 +9,31 @@ import data from './data/data.json';
 
 const App = () => {
   const { header, pages, footer } = data;
-  const { projects, contact } = pages;
+
+  const renderComponent = item => {
+    switch (item.path) {
+      case '/':
+        return <HomePage {...item} />;
+      case '/projects':
+        return <ProjectsPage {...item} />;
+      case '/contact':
+        return <ContactPage {...item} />;
+      default:
+        break;
+    }
+  };
 
   return (
     <BrowserRouter>
       <Header {...header} />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<ProjectsPage {...projects} />} />
-        <Route path="/contact" element={<ContactPage {...contact} />} />
+        {pages.map(item => (
+          <Route
+            key={item.path}
+            path={item.path}
+            element={renderComponent(item)}
+          />
+        ))}
       </Routes>
       <Footer {...footer} />
     </BrowserRouter>
