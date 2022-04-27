@@ -1,0 +1,38 @@
+{
+  "header": {
+    "logo": {
+      "src": "/img/logo.png",
+      "alt": "BossElijah"
+    },
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Projects",
+        "url": "/projects"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "footer": {
+    "socialMedia": [
+      {
+        "platform": "codepen",
+        "url": "https://codepen.io/bosselijah"
+      },
+      {
+        "platform": "bitbucket",
+        "url": "https://bitbucket.org/egb-dev"
+      },
+      {
+        "platform": "github",
+        "url": "https://github.com/bosselijah"
+      }
+    ]
+  }
+}

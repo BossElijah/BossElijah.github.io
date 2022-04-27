@@ -1,26 +1,18 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from 'react-router-dom';
 
-const Header = () => (
+const Header = ({ logo, links }) => (
   <header>
     <Link to="/">
-      <img src="/img/logo.png" alt="BossElijah" className="header__logo" />
+      <img src={logo.src} alt={logo?.alt} className="header__logo" />
     </Link>
     <ul className="nav-links">
-      <li>
-        <NavLink to="/" activeClassName="active">
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to="/projects" activeClassName="active">
-          Projects
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to="/contact" activeClassName="active">
-          Contact
-        </NavLink>
-      </li>
+      {links.map(({ url, label }, index) => (
+        <li key={index}>
+          <NavLink to={url} activeClassName="active">
+            {label}
+          </NavLink>
+        </li>
+      ))}
     </ul>
   </header>
 );
