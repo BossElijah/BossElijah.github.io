@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { getSocialMediaIcon } from '../../util/util';
 
@@ -10,9 +11,9 @@ const Footer = ({ socialMedia }) => (
       </Link>
     </div>
     <div className="socials">
-      {socialMedia.map((item, index) => (
+      {socialMedia.map(item => (
         <a
-          key={index}
+          key={item.platform}
           className="footer-item"
           href={item.url}
           target="_blank"
@@ -24,5 +25,14 @@ const Footer = ({ socialMedia }) => (
     </div>
   </footer>
 );
+
+Footer.propTypes = {
+  socialMedia: PropTypes.arrayOf(
+    PropTypes.shape({
+      platform: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired
+    }).isRequired
+  ).isRequired
+};
 
 export default Footer;

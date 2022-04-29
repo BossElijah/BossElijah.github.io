@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { Field, Form, Formik } from 'formik';
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import { useState } from 'react';
 import * as Yup from 'yup';
 
 const FORM_ENDPOINT =
@@ -90,6 +91,12 @@ const ContactForm = ({ success, error, labels }) => {
       {isSuccess === false && <p className="submit-error">{error}</p>}
     </>
   );
+};
+
+ContactForm.propTypes = {
+  success: PropTypes.string.isRequired,
+  error: PropTypes.string.isRequired,
+  labels: PropTypes.objectOf(PropTypes.string.isRequired).isRequired
 };
 
 export default ContactForm;

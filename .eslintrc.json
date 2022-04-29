@@ -1,0 +1,14 @@
+{
+  "extends": ["react-app", "react-app/jest", "airbnb", "prettier"],
+  "rules": {
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-filename-extension": "off"
+  },
+  "parser": "@babel/eslint-parser"
+}

@@ -19,7 +19,9 @@ const App = () => {
       case '/contact':
         return <ContactPage {...item} />;
       default:
-        break;
+        return (
+          <div>Page with url &quot;{item.path}&quot; is not created yet!</div>
+        );
     }
   };
 
