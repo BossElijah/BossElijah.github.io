@@ -1,7 +1,11 @@
 {
   "header": {
-    "logo": {
-      "src": "/img/logo.png",
+    "logoMobile": {
+      "src": "/favicon.ico",
+      "alt": "BossElijah"
+    },
+    "logoDesktop": {
+      "src": "/img/logo-text.png",
       "alt": "BossElijah"
     },
     "links": [

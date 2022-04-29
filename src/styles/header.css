@@ -8,9 +8,24 @@ header {
 }
 
 .header__logo {
-  height: calc(var(--header-height) + 20px);
-  width: auto;
-  padding: 20px 10px;
+  height: auto;
+  max-height: 100%;
+  max-width: 15rem;
+  padding: 0 0.75rem;
+  display: none;
+}
+
+@media (min-width: 687px) {
+  .header__logo.desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 687px) {
+  .header__logo.mobile {
+    display: block;
+    height: 3.5rem;
+  }
 }
 
 .nav-links {
@@ -30,16 +45,14 @@ header {
   align-items: center;
   color: #fff;
   text-decoration: none;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.nav-links li a.active {
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
+  text-decoration-color: transparent;
 }
 
+.nav-links li a.active,
 .nav-links li a:hover {
-  background-color: #fff;
-  color: var(--color-primary);
+  text-decoration-color: inherit;
 }
