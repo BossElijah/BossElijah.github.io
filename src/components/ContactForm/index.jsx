@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 const FORM_ENDPOINT =
   'https://public.herotofu.com/v1/65b4e800-c62f-11ec-a557-034a17e2da28';
 
-const ContactForm = ({ success, labels }) => {
+const ContactForm = ({ success, error, labels }) => {
   const [isSuccess, setIsSuccess] = useState(null);
 
   const handleSubmit = (values, { resetForm }) => {
@@ -87,11 +87,7 @@ const ContactForm = ({ success, labels }) => {
         )}
       </Formik>
       {isSuccess === true && <p className="submit-success">{success}</p>}
-      {isSuccess === false && (
-        <p className="submit-error">
-          We ran into an error when trying to send your email. Please try again.
-        </p>
-      )}
+      {isSuccess === false && <p className="submit-error">{error}</p>}
     </>
   );
 };

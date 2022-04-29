@@ -252,6 +252,7 @@
       "title": "Contact",
       "contactForm": {
         "success": "Your message was sent successfully!",
+        "error": "We ran into an error when trying to send your email. Please try again.",
         "labels": {
           "name": "Name",
           "email": "Email",
