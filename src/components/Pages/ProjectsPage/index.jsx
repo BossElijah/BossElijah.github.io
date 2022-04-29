@@ -1,5 +1,5 @@
-import { Helmet } from 'react-helmet';
-import Teaser from '../../Teaser';
+import { Helmet } from "react-helmet";
+import Teaser from "../../Teaser";
 
 const ProjectsPage = ({ tabTitle, title, projects }) => (
   <>

@@ -1,11 +1,11 @@
-import { Helmet } from 'react-helmet';
-import { calculateAge } from '../../../util/util';
+import { Helmet } from "react-helmet";
+import { calculateAge } from "../../../util/util";
 
 const HomePage = ({ tabTitle, img, content }) => {
   content = content
-    .replace('my-age', calculateAge('08.10.05'))
-    .replace('micah-age', calculateAge('05.01.08'))
-    .replace('josias-age', calculateAge('01.10.11'));
+    .replace("my-age", calculateAge("08.10.05"))
+    .replace("micah-age", calculateAge("05.01.08"))
+    .replace("josias-age", calculateAge("01.10.11"));
 
   return (
     <>

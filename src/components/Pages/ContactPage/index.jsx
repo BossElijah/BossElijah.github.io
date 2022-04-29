@@ -1,5 +1,5 @@
-import { Helmet } from 'react-helmet';
-import ContactForm from '../../ContactForm';
+import { Helmet } from "react-helmet";
+import ContactForm from "../../ContactForm";
 
 const ContactPage = ({ tabTitle, title, contactForm }) => (
   <>

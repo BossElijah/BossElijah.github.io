@@ -251,10 +251,7 @@
       "tabTitle": "Contact | BossElijah",
       "title": "Contact",
       "contactForm": {
-        "success": {
-          "title": "Your message was sent successfully!",
-          "description": "I will reply as soon as possible."
-        },
+        "success": "Your message was sent successfully!",
         "labels": {
           "name": "Name",
           "email": "Email",

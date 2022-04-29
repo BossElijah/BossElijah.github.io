@@ -1,10 +1,10 @@
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Routes, Route, HashRouter } from 'react-router-dom';
-import HomePage from './components/Pages/HomePage';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import ContactPage from './components/Pages/ContactPage';
+import HomePage from './components/Pages/HomePage';
 import ProjectsPage from './components/Pages/ProjectsPage';
-import Footer from './components/Footer';
 import data from './data/data.json';
 
 const App = () => {
@@ -35,6 +35,16 @@ const App = () => {
               element={renderComponent(item)}
             />
           ))}
+          <Route
+            path="*"
+            element={
+              <>
+                <h1>404</h1>
+                <p>Page Not Found</p>
+                <p>TODO: Style this.</p>
+              </>
+            }
+          />
         </Routes>
       </div>
       <Footer {...footer} />
