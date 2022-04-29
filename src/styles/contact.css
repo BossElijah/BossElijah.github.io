@@ -48,13 +48,15 @@ textarea {
   background-color: #ececec;
 }
 
-.success {
+.submit-success,
+.submit-error {
   text-align: center;
   padding: 0.5rem;
   color: green;
 }
 
-.error {
+.error,
+.submit-error {
   color: red;
 }
 

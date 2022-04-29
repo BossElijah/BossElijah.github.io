@@ -1,23 +1,25 @@
+import axios from 'axios';
 import { Field, Form, Formik } from 'formik';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
 
 const FORM_ENDPOINT =
-  'http://localhost:1233456789/hello/test/this-link-works-not/help';
-// 'https://public.herotofu.com/v1/65b4e800-c62f-11ec-a557-034a17e2da28';
+  'https://public.herotofu.com/v1/65b4e800-c62f-11ec-a557-034a17e2da28';
 
 const ContactForm = ({ success, labels }) => {
-  const [isSuccess, setIsSuccesss] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(null);
 
-  const handleSubmit = event => {
-    setTimeout(() => {
-      setIsSuccesss(true);
-    }, 100);
-    setTimeout(() => {
-      setIsSuccesss(false);
-    }, 8000);
+  const handleSubmit = (values, { resetForm }) => {
+    axios
+      .post(FORM_ENDPOINT, values)
+      .then(() => setIsSuccess(true))
+      .catch(() => setIsSuccess(false));
 
-    event.target.reset();
+    setTimeout(() => {
+      setIsSuccess(null);
+    }, 9000);
+
+    resetForm();
   };
 
   const validationSchema = Yup.object().shape({
@@ -35,14 +37,10 @@ const ContactForm = ({ success, labels }) => {
           message: ''
         }}
         validationSchema={validationSchema}
+        onSubmit={handleSubmit}
       >
         {({ errors, touched, isValid, dirty }) => (
-          <Form
-            action={FORM_ENDPOINT}
-            method="POST"
-            target="_blank"
-            onSubmit={handleSubmit}
-          >
+          <Form>
             <div className="first-wrapper">
               <div className="input-container">
                 <label htmlFor="name">{labels.name}</label>
@@ -88,7 +86,12 @@ const ContactForm = ({ success, labels }) => {
           </Form>
         )}
       </Formik>
-      {isSuccess === true && <p className="success">{success}</p>}
+      {isSuccess === true && <p className="submit-success">{success}</p>}
+      {isSuccess === false && (
+        <p className="submit-error">
+          We ran into an error when trying to send your email. Please try again.
+        </p>
+      )}
     </>
   );
 };
