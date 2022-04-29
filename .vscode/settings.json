@@ -1,0 +1,14 @@
+{
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
