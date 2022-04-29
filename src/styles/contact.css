@@ -1,7 +1,6 @@
 .first-wrapper {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 .first-wrapper > div {
@@ -31,20 +30,34 @@ textarea,
 
 textarea {
   height: 200px;
-  margin-bottom: 1rem;
 }
 
 .submit-button {
   cursor: pointer;
   transition: background-color 0.25s ease;
+  margin-top: 1rem;
+}
+
+.submit-button:disabled,
+.submit-button:disabled:hover {
+  background-color: unset;
+  cursor: not-allowed;
 }
 
 .submit-button:hover {
-  background-color: #bbb;
+  background-color: #ececec;
 }
 
 .success {
   text-align: center;
   padding: 0.5rem;
   color: green;
+}
+
+.error {
+  color: red;
+}
+
+.message-label {
+  margin-top: 1rem;
 }
