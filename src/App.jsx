@@ -2,6 +2,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import PageNotFound from './components/PageNotFound';
 import ContactPage from './components/Pages/ContactPage';
 import HomePage from './components/Pages/HomePage';
 import ProjectsPage from './components/Pages/ProjectsPage';
@@ -37,16 +38,7 @@ const App = () => {
               element={renderComponent(item)}
             />
           ))}
-          <Route
-            path="*"
-            element={
-              <>
-                <h1>404</h1>
-                <p>Page Not Found</p>
-                <p>TODO: Style this.</p>
-              </>
-            }
-          />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
       <Footer {...footer} />
