@@ -1,13 +1,11 @@
+$header-height: 60px;
+$footer-height: 100px;
+$color-primary: rgb(0, 70, 128);
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-:root {
-  --header-height: 60px;
-  --footer-height: 100px;
-  --color-primary: rgb(0, 70, 128);
 }
 
 body {
@@ -21,5 +19,9 @@ body {
   max-width: 600px;
   margin: 0 auto;
   font-size: 1.25rem;
-  min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  min-height: calc(100vh - ($header-height + $footer-height));
+}
+
+h1 {
+  margin-bottom: 2rem;
 }

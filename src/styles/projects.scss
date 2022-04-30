@@ -1,0 +1,24 @@
+.project {
+  display: block;
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #333;
+  border: 0.1875rem solid #ddd;
+  border-radius: 0.375rem;
+  margin-bottom: 2rem;
+  transition: color 0.25s ease, border-color 0.25s ease,
+    background-color 0.25s ease;
+
+  &:hover {
+    color: #666;
+    border-color: #ccc;
+    background-color: #eee;
+  }
+
+  .date {
+    font-size: 0.875rem;
+    color: #aaa;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+  }
+}

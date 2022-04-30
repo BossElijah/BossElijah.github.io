@@ -13,7 +13,7 @@ const HomePage = ({ tabTitle, img, content }) => {
       <Helmet>
         <title>{tabTitle}</title>
       </Helmet>
-      <div className="content">
+      <div className="home-page">
         {img && (
           <img
             src={img.src}
