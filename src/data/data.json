@@ -1,13 +1,5 @@
 {
   "header": {
-    "logoMobile": {
-      "src": "/favicon.ico",
-      "alt": "BossElijah"
-    },
-    "logoDesktop": {
-      "src": "/img/logo-text.png",
-      "alt": "BossElijah"
-    },
     "links": [
       {
         "label": "Home",
@@ -23,348 +15,6 @@
       }
     ]
   },
-  "pages": [
-    {
-      "path": "/",
-      "tabTitle": "Home | BossElijah",
-      "img": {
-        "src": "/img/picture.jpg",
-        "alt": "BossElijah"
-      },
-      "content": "<p>Welcome to my corner of the web! I'm Elias, and I'm thrilled to have you here.</p><p>Ever since I can remember, I've been captivated by the endless possibilities of technology and the boundless realms of creativity. With a deep-rooted passion for Drupal and React, I've embarked on a journey to blend artistry with innovation.</p><p>As a consultant, I thrive on the dynamic challenges and opportunities presented by each client engagement. Drawing upon my expertise in [mention your specific field or industry], I collaborate closely with organizations to develop tailored solutions that drive growth, efficiency, and innovation. Whether it's conducting in-depth analysis, devising strategic recommendations, or implementing transformative initiatives, I approach each project with dedication, creativity, and a keen eye for detail. Guided by a commitment to excellence and a passion for problem-solving, I take pride in delivering tangible results that empower my clients to thrive in today's ever-evolving business landscape.</p><p>I'm a lifelong learner, always eager to explore new horizons and embrace fresh challenges. Whether I'm coding up a storm, diving into a design project, or strategizing on the soccer field, I find fulfillment in the process of creation.</p><p>When I'm not immersed in the world of technology and creativity, you can often find me on the soccer pitch, where the camaraderie of the game fuels my competitive spirit and keeps me grounded. I also have a deep appreciation for health, frequently hitting the gym to stay active and energized.</p><p>And when it's time to unwind and reconnect with nature, I trade in my cleats for ski boots, carving up the slopes with exhilarating speed and grace. Additionally, I enjoy the adrenaline rush of paintball battles, where strategy and teamwork are paramount.</p><p>At home, I'm accompanied by my loyal companion, Boaz, my Rhodesian Ridgeback. Together, we explore the great outdoors and enjoy life's simple pleasures.</p><p>When I was 12 years old, my life took a remarkable turn as my family and I embarked on a journey that led us to the beautiful country of Czech Republic. Leaving behind familiar sights and sounds, we embraced a new culture, language, and way of life. This pivotal experience ignited within me a profound appreciation for diversity and adaptability, shaping me into the resilient and open-minded individual I am today. Embracing every opportunity to learn and grow, my time in Czech Republic has become an integral part of my identity, enriching my worldview and fueling my passion for exploration and discovery.</p><p>My linguistic journey reflects the diverse tapestry of my life experiences. Growing up bilingual in English and Danish provided me with a solid foundation for communication, while my time in the Czech Republic introduced me to the intricacies of the Czech language. Additionally, I've dabbled in German, adding another layer to my linguistic repertoire. Beyond these languages, I've also delved into the fascinating world of Esperanto, albeit to a lesser extent. Each language I've encountered has not only expanded my ability to connect with others but has also deepened my appreciation for the richness of global communication.</p><p>In addition to my professional endeavors and outdoor pursuits, music has always held a special place in my heart. From the melodic strumming of the guitar to the gentle keys of the piano, and the emotive expression of singing, music allows me to connect with my innermost thoughts and emotions in a profound way. Whether I'm composing my own melodies or interpreting beloved classics, the rhythmic cadence and harmonious blend of notes transport me to a world of creativity and self-expression. Playing guitar, piano, and singing are not just hobbies; they're a vital part of who I am, providing solace, inspiration, and boundless joy amidst life's journey.</p>",
-      "gallery": [
-        {
-          "src": "/img/me.jpg",
-          "alt": "Me on escalator wearing sunglasses"
-        },
-        {
-          "src": "/img/me2.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me3.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me4.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me5.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me7.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me8.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me9.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me10.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me11.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me12.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me13.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me14.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me15.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me16.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me17.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me18.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me19.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me20.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me21.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me22.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/me23.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/dog.jpg",
-          "alt": ""
-        },
-        {
-          "src": "/img/dog2.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "path": "/projects",
-      "tabTitle": "Projects | BossElijah",
-      "title": "My Projects",
-      "content": "<p>Passionate about the intersection of creativity and technology, I'm constantly exploring new ways to innovate and express myself. With a background in JS and React, I thrive on challenges that push the boundaries of what's possible. Whether it's coding elegant solutions, crafting compelling stories, or diving into the latest trends, I'm always eager to learn and grow.</p><br><br>",
-      "projects": [
-        {
-          "url": "https://bosselijah-parallax.netlify.app/",
-          "title": "Parallax Scrolling",
-          "text": "Scroll down the screen to see the objects moving.",
-          "date": "April 2022"
-        },
-        {
-          "url": "https://boss-parallax.netlify.app",
-          "title": "Interactive Parallax",
-          "text": "Move your mouse around to see the cool parallax effect.",
-          "date": "April 2022"
-        },
-        {
-          "url": "https://bossword.netlify.app",
-          "title": "Password generator",
-          "text": "Generate hard-to-guess passwords with one single click",
-          "date": "April 2022"
-        },
-        {
-          "url": "https://codepen.io/BossElijah/pen/ZEvKMGw",
-          "title": "Duolingo button",
-          "text": "I made this because my friend teased me and said I couldn't make a button that looks like the ones from Duolingo'. 😀",
-          "date": "March 2022"
-        },
-        {
-          "url": "https://radial-gradient.netlify.app",
-          "title": "Radial gradient",
-          "text": "This is an interactive radial gradient website, where you can customize sizes, colors, etc.",
-          "date": "March 2022"
-        },
-        {
-          "url": "https://repeating-linear-gradient.netlify.app",
-          "title": "Linear gradient",
-          "text": "This is an interactive linear gradient website, where you can customize sizes, colors, etc.",
-          "date": "March 2022"
-        },
-        {
-          "url": "https://bosselijah-crwn.herokuapp.com/",
-          "title": "Crown Clothing",
-          "text": "This is an online clothing store supporting login, signup, adding products to card, and handling <b>fake</b> payments.",
-          "date": "March 2022"
-        },
-        {
-          "url": "https://github.com/BossElijah/czech-vocab-chrome-extension",
-          "title": "Chrome extension: Czech Vocab",
-          "text": "This chrome extension overrides the default \"New Tab\", and replaces it with a Czech word and it's definition.",
-          "date": "February 2022"
-        },
-        {
-          "url": "https://boss-game-rules.github.io",
-          "title": "Game Rules",
-          "text": "Here you can look up the rules for a board/card-game. This project is neither done, nor further developed.",
-          "date": "February 2022"
-        },
-        {
-          "url": "https://calc-boss.netlify.app/",
-          "title": "Another calculator",
-          "text": "Built with pure React JS.",
-          "date": "January 2022"
-        },
-        {
-          "url": "https://bosselijah-chat.netlify.app/",
-          "title": "Chat program",
-          "text": "This is a chat program, that allows the user to login with their Google account, and then chat. It is built with React, Socket, and Firebase. Right now, it doesn't allow new users, so use email \"user@example.com\" and password \"user@example.com\" to login.",
-          "date": "January 2022"
-        },
-        {
-          "url": "https://animated-counters.netlify.app",
-          "title": "Animated counters",
-          "text": "This is a website with animated counters for followers and subscribers on social media.",
-          "date": "January 2022"
-        },
-        {
-          "url": "https://bosselijah.github.io/spinning-logos/",
-          "title": "Spinning logos",
-          "text": "This is a simple page with a bunch of react logos spinning around.",
-          "date": "January 2022"
-        },
-        {
-          "url": "https://bosselijah.github.io/cool-hamburger-menu",
-          "title": "Fancy hamburger menu",
-          "text": "This is a hamburger menu with fancy hover and click effects.",
-          "date": "November 2021"
-        },
-        {
-          "url": "https://calculatorultimate.netlify.app",
-          "title": "Online calculator",
-          "text": "This online calculator can calculate simple calculations. It is programmed to handle math hierarchy too.",
-          "date": "November 2021"
-        },
-        {
-          "url": "https://userf0rm.netlify.app",
-          "title": "User form",
-          "text": "This basic user form is a plain form sample that I created in my first month of coding.",
-          "date": "October 2021"
-        },
-        {
-          "url": "https://trackcal0ries.netlify.app",
-          "title": "Tracalorie",
-          "text": "This is an app you can use to track all calories you put into your mouth. Every time you eat something, you just type it in there, and it will calculate the total amount for you.",
-          "date": "October 2021"
-        },
-        {
-          "url": "https://tasklist123.netlify.app",
-          "title": "Task list",
-          "text": "This is a very simple todo app.",
-          "date": "September 2021"
-        },
-        {
-          "url": "https://screensizer.netlify.app",
-          "title": "Screen sizer",
-          "text": "This website will show you the exact pixel size of your browser window.",
-          "date": "September 2021"
-        },
-        {
-          "url": "https://portfolio-website-sample.netlify.app",
-          "title": "Portfolio sample",
-          "text": "This is a sample portfolio website that can be an inspiration for others, who need a portfolio.",
-          "date": "August 2021"
-        },
-        {
-          "url": "https://numberguesser123.netlify.app",
-          "title": "Number guesser",
-          "text": "This is a number guessing game where you have to guess the correct number between one and 10.",
-          "date": "August 2021"
-        },
-        {
-          "url": "https://mouse-coordinates.netlify.app",
-          "title": "Mouse coordinates",
-          "text": "This is a web app that shows the coordinates of your mouse.",
-          "date": "July 2021"
-        },
-        {
-          "url": "https://colorcolor.netlify.app",
-          "title": "Color",
-          "text": "This is a useless color website where you can choose between various color themes with just one click.",
-          "date": "July 2021"
-        },
-        {
-          "url": "https://rvl.netlify.app",
-          "title": "Reveal IT clone",
-          "text": "This is a clone of 'http://revealit.dk'.",
-          "date": "June 2021"
-        },
-        {
-          "url": "https://githubfinder1234567865432134567.netlify.app",
-          "title": "Github Finder",
-          "text": "This application can be used to search through all Github users.",
-          "date": "May 2021"
-        },
-        {
-          "url": "https://h0telbt.netlify.app",
-          "title": "Hotel BT",
-          "text": "This is a basic sample website for a tiny hotel.",
-          "date": "April 2021"
-        },
-        {
-          "url": "https://edgeledgerultimate.netlify.app",
-          "title": "Edge Ledger",
-          "text": "This is a sample website for a business company.",
-          "date": "April 2021"
-        },
-        {
-          "url": "https://degreec0nverter.netlify.app",
-          "title": "Degree converter",
-          "text": "This degree converter can convert celcius to fahrenheit and opposite.",
-          "date": "March 2021"
-        },
-        {
-          "url": "https://l0an-calculator.netlify.app",
-          "title": "Loan calculator",
-          "text": "This online loan calculator can be used to calculate how much money you have to pay back per month, given the loan amount, the interest, and the years to repay.",
-          "date": "March 2021"
-        },
-        {
-          "url": "https://c0nvertcurrency.netlify.app",
-          "title": "Currency converter",
-          "text": "This is a currency converter that can convert Danish crowns to Czech crowns and opposite.",
-          "date": "March 2021"
-        },
-        {
-          "url": "https://b00klist.netlify.app",
-          "title": "Book list",
-          "text": "This is a booklist that can be used mainly by librarians to display a list of books, authors, and ISBN numbers.",
-          "date": "February 2021"
-        },
-        {
-          "url": "https://displaywriting.netlify.app",
-          "title": "Display Writing",
-          "text": "This is a useless app that will show what you write.",
-          "date": "January 2021"
-        },
-        {
-          "url": "https://filedrop-app.netlify.app",
-          "title": "Filedrop",
-          "text": "This is a useless application.",
-          "date": "January 2021"
-        },
-        {
-          "url": "https://chucknorrisjoke-generator.netlify.app",
-          "title": "Chuck Norris joke generator",
-          "text": "This web application can tell you as many Chuck Norris jokes as you wish.",
-          "date": "December 2020"
-        },
-        {
-          "url": "https://background-changeer.netlify.app",
-          "title": "Background changer",
-          "text": "This is a stupid website that will change background color whenever you move your mouse.",
-          "date": "November 2020"
-        }
-      ]
-    },
-    {
-      "path": "/contact",
-      "tabTitle": "Contact | BossElijah",
-      "title": "Contact",
-      "contactForm": {
-        "success": "Your message was sent successfully!",
-        "error": "We ran into an error when trying to send your email. Please try again.",
-        "labels": {
-          "name": "Name",
-          "email": "Email",
-          "message": "Message",
-          "submit": "Submit"
-        }
-      }
-    }
-  ],
   "footer": {
     "socialMedia": [
       {
@@ -380,5 +30,401 @@
         "url": "https://github.com/bosselijah"
       }
     ]
-  }
+  },
+  "pages": [
+    {
+      "title": "Welcome to BossElijah's Digital Hub",
+      "path": "/",
+      "tabTitle": "Home | BossElijah",
+      "components": [
+        {
+          "type": "richText",
+          "title": "",
+          "richText": "<p>Welcome to my corner of the web! I'm Elias, and I'm thrilled to have you here.</p><p>Ever since I can remember, I've been captivated by the endless possibilities of technology and the boundless realms of creativity. With a deep-rooted passion for Drupal and React, I've embarked on a journey to blend artistry with innovation.</p><p>As a consultant, I thrive on the dynamic challenges and opportunities presented by each client engagement. Drawing upon my expertise in [mention your specific field or industry], I collaborate closely with organizations to develop tailored solutions that drive growth, efficiency, and innovation. Whether it's conducting in-depth analysis, devising strategic recommendations, or implementing transformative initiatives, I approach each project with dedication, creativity, and a keen eye for detail. Guided by a commitment to excellence and a passion for problem-solving, I take pride in delivering tangible results that empower my clients to thrive in today's ever-evolving business landscape.</p><p>I'm a lifelong learner, always eager to explore new horizons and embrace fresh challenges. Whether I'm coding up a storm, diving into a design project, or strategizing on the soccer field, I find fulfillment in the process of creation.</p><p>When I'm not immersed in the world of technology and creativity, you can often find me on the soccer pitch, where the camaraderie of the game fuels my competitive spirit and keeps me grounded. I also have a deep appreciation for health, frequently hitting the gym to stay active and energized.</p><p>And when it's time to unwind and reconnect with nature, I trade in my cleats for ski boots, carving up the slopes with exhilarating speed and grace. Additionally, I enjoy the adrenaline rush of paintball battles, where strategy and teamwork are paramount.</p><p>At home, I'm accompanied by my loyal companion, Boaz, my Rhodesian Ridgeback. Together, we explore the great outdoors and enjoy life's simple pleasures.</p><p>When I was 12 years old, my life took a remarkable turn as my family and I embarked on a journey that led us to the beautiful country of Czech Republic. Leaving behind familiar sights and sounds, we embraced a new culture, language, and way of life. This pivotal experience ignited within me a profound appreciation for diversity and adaptability, shaping me into the resilient and open-minded individual I am today. Embracing every opportunity to learn and grow, my time in Czech Republic has become an integral part of my identity, enriching my worldview and fueling my passion for exploration and discovery.</p><p>My linguistic journey reflects the diverse tapestry of my life experiences. Growing up bilingual in English and Danish provided me with a solid foundation for communication, while my time in the Czech Republic introduced me to the intricacies of the Czech language. Additionally, I've dabbled in German, adding another layer to my linguistic repertoire. Beyond these languages, I've also delved into the fascinating world of Esperanto, albeit to a lesser extent. Each language I've encountered has not only expanded my ability to connect with others but has also deepened my appreciation for the richness of global communication.</p><p>In addition to my professional endeavors and outdoor pursuits, music has always held a special place in my heart. From the melodic strumming of the guitar to the gentle keys of the piano, and the emotive expression of singing, music allows me to connect with my innermost thoughts and emotions in a profound way. Whether I'm composing my own melodies or interpreting beloved classics, the rhythmic cadence and harmonious blend of notes transport me to a world of creativity and self-expression. Playing guitar, piano, and singing are not just hobbies; they're a vital part of who I am, providing solace, inspiration, and boundless joy amidst life's journey.</p>"
+        },
+        {
+          "type": "link",
+          "title": "Get in touch!",
+          "url": "/contact"
+        },
+        {
+          "type": "gallery",
+          "title": "Gallery",
+          "images": [
+            {
+              "src": "/img/me.jpg",
+              "alt": "Me on escalator wearing sunglasses"
+            },
+            {
+              "src": "/img/me2.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me3.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me4.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me5.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me7.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me8.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me9.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me10.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me11.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me12.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me13.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me14.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me15.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me16.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me17.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me18.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me19.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me20.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me21.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me22.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/me23.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/dog.jpg",
+              "alt": ""
+            },
+            {
+              "src": "/img/dog2.jpg",
+              "alt": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "My Projects",
+      "path": "/projects",
+      "tabTitle": "Projects | BossElijah",
+      "components": [
+        {
+          "type": "richText",
+          "title": "",
+          "richText": "<p>Passionate about the intersection of creativity and technology, I'm constantly exploring new ways to innovate and express myself. With a background in JS and React, I thrive on challenges that push the boundaries of what's possible. Whether it's coding elegant solutions, crafting compelling stories, or diving into the latest trends, I'm always eager to learn and grow.</p>"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bosselijah-parallax.netlify.app/",
+          "title": "Parallax Scrolling",
+          "text": "Scroll down the screen to see the objects moving.",
+          "date": "April 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://boss-parallax.netlify.app",
+          "title": "Interactive Parallax",
+          "text": "Move your mouse around to see the cool parallax effect.",
+          "date": "April 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bossword.netlify.app",
+          "title": "Password generator",
+          "text": "Generate hard-to-guess passwords with one single click",
+          "date": "April 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://codepen.io/BossElijah/pen/ZEvKMGw",
+          "title": "Duolingo button",
+          "text": "I made this because my friend teased me and said I couldn't make a button that looks like the ones from Duolingo'. 😀",
+          "date": "March 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://radial-gradient.netlify.app",
+          "title": "Radial gradient",
+          "text": "This is an interactive radial gradient website, where you can customize sizes, colors, etc.",
+          "date": "March 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://repeating-linear-gradient.netlify.app",
+          "title": "Linear gradient",
+          "text": "This is an interactive linear gradient website, where you can customize sizes, colors, etc.",
+          "date": "March 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bosselijah-crwn.herokuapp.com/",
+          "title": "Crown Clothing",
+          "text": "This is an online clothing store supporting login, signup, adding products to card, and handling <b>fake</b> payments.",
+          "date": "March 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://github.com/BossElijah/czech-vocab-chrome-extension",
+          "title": "Chrome extension: Czech Vocab",
+          "text": "This chrome extension overrides the default \"New Tab\", and replaces it with a Czech word and it's definition.",
+          "date": "February 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://boss-game-rules.github.io",
+          "title": "Game Rules",
+          "text": "Here you can look up the rules for a board/card-game. This project is neither done, nor further developed.",
+          "date": "February 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://calc-boss.netlify.app/",
+          "title": "Another calculator",
+          "text": "Built with pure React JS.",
+          "date": "January 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bosselijah-chat.netlify.app/",
+          "title": "Chat program",
+          "text": "This is a chat program, that allows the user to login with their Google account, and then chat. It is built with React, Socket, and Firebase. Right now, it doesn't allow new users, so use email \"user@example.com\" and password \"user@example.com\" to login.",
+          "date": "January 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://animated-counters.netlify.app",
+          "title": "Animated counters",
+          "text": "This is a website with animated counters for followers and subscribers on social media.",
+          "date": "January 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bosselijah.github.io/spinning-logos/",
+          "title": "Spinning logos",
+          "text": "This is a simple page with a bunch of react logos spinning around.",
+          "date": "January 2022"
+        },
+        {
+          "type": "teaser",
+          "url": "https://bosselijah.github.io/cool-hamburger-menu",
+          "title": "Fancy hamburger menu",
+          "text": "This is a hamburger menu with fancy hover and click effects.",
+          "date": "November 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://calculatorultimate.netlify.app",
+          "title": "Online calculator",
+          "text": "This online calculator can calculate simple calculations. It is programmed to handle math hierarchy too.",
+          "date": "November 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://userf0rm.netlify.app",
+          "title": "User form",
+          "text": "This basic user form is a plain form sample that I created in my first month of coding.",
+          "date": "October 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://trackcal0ries.netlify.app",
+          "title": "Tracalorie",
+          "text": "This is an app you can use to track all calories you put into your mouth. Every time you eat something, you just type it in there, and it will calculate the total amount for you.",
+          "date": "October 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://tasklist123.netlify.app",
+          "title": "Task list",
+          "text": "This is a very simple todo app.",
+          "date": "September 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://screensizer.netlify.app",
+          "title": "Screen sizer",
+          "text": "This website will show you the exact pixel size of your browser window.",
+          "date": "September 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://portfolio-website-sample.netlify.app",
+          "title": "Portfolio sample",
+          "text": "This is a sample portfolio website that can be an inspiration for others, who need a portfolio.",
+          "date": "August 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://numberguesser123.netlify.app",
+          "title": "Number guesser",
+          "text": "This is a number guessing game where you have to guess the correct number between one and 10.",
+          "date": "August 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://mouse-coordinates.netlify.app",
+          "title": "Mouse coordinates",
+          "text": "This is a web app that shows the coordinates of your mouse.",
+          "date": "July 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://colorcolor.netlify.app",
+          "title": "Color",
+          "text": "This is a useless color website where you can choose between various color themes with just one click.",
+          "date": "July 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://rvl.netlify.app",
+          "title": "Reveal IT clone",
+          "text": "This is a clone of 'http://revealit.dk'.",
+          "date": "June 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://githubfinder1234567865432134567.netlify.app",
+          "title": "Github Finder",
+          "text": "This application can be used to search through all Github users.",
+          "date": "May 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://h0telbt.netlify.app",
+          "title": "Hotel BT",
+          "text": "This is a basic sample website for a tiny hotel.",
+          "date": "April 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://edgeledgerultimate.netlify.app",
+          "title": "Edge Ledger",
+          "text": "This is a sample website for a business company.",
+          "date": "April 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://degreec0nverter.netlify.app",
+          "title": "Degree converter",
+          "text": "This degree converter can convert celcius to fahrenheit and opposite.",
+          "date": "March 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://l0an-calculator.netlify.app",
+          "title": "Loan calculator",
+          "text": "This online loan calculator can be used to calculate how much money you have to pay back per month, given the loan amount, the interest, and the years to repay.",
+          "date": "March 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://c0nvertcurrency.netlify.app",
+          "title": "Currency converter",
+          "text": "This is a currency converter that can convert Danish crowns to Czech crowns and opposite.",
+          "date": "March 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://b00klist.netlify.app",
+          "title": "Book list",
+          "text": "This is a booklist that can be used mainly by librarians to display a list of books, authors, and ISBN numbers.",
+          "date": "February 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://displaywriting.netlify.app",
+          "title": "Display Writing",
+          "text": "This is a useless app that will show what you write.",
+          "date": "January 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://filedrop-app.netlify.app",
+          "title": "Filedrop",
+          "text": "This is a useless application.",
+          "date": "January 2021"
+        },
+        {
+          "type": "teaser",
+          "url": "https://chucknorrisjoke-generator.netlify.app",
+          "title": "Chuck Norris joke generator",
+          "text": "This web application can tell you as many Chuck Norris jokes as you wish.",
+          "date": "December 2020"
+        },
+        {
+          "type": "teaser",
+          "url": "https://background-changeer.netlify.app",
+          "title": "Background changer",
+          "text": "This is a stupid website that will change background color whenever you move your mouse.",
+          "date": "November 2020"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "path": "/contact",
+      "tabTitle": "Contact | BossElijah",
+      "components": [
+        {
+          "type": "contactForm",
+          "success": "Your message was sent successfully!",
+          "error": "We ran into an error when trying to send your email. Please try again.",
+          "labels": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Submit"
+          }
+        }
+      ]
+    }
+  ]
 }

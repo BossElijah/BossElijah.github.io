@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Teaser = ({ title, url, text, date }) => (
-  <a href={url} target="_blank" rel="noreferrer" className="project">
+  <a href={url} target="_blank" rel="noreferrer" className="teaser">
     <h2>{title}</h2>
     <p>{text}</p>
     <div className="date">{date}</div>
