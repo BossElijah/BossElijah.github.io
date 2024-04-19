@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { calculateAge } from '../../../util/util';
+import { Link } from 'react-router-dom';
 
-const HomePage = ({ tabTitle, img, content }) => {
-  const newContent = content
-    .replace('my-age', calculateAge('08.10.05'))
-    .replace('micah-age', calculateAge('05.01.08'))
-    .replace('josias-age', calculateAge('01.10.11'));
+const HomePage = ({ tabTitle, img, content, gallery }) => {
+  const galleryItems = gallery.map(item => (
+    <div className="gallery-item">
+      <img src={item.src} alt={item.alt} />
+    </div>
+  ));
 
   return (
     <>
@@ -23,8 +24,14 @@ const HomePage = ({ tabTitle, img, content }) => {
             className="picture"
           />
         )}
-        {/* eslint-disable-next-line react/no-danger */}
-        <div dangerouslySetInnerHTML={{ __html: newContent }} />
+        <div
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: content }}
+          className="content"
+        />
+        <Link to="/contact">Get in touch</Link>
+        <h2>Gallery</h2>
+        <div className="gallery">{galleryItems}</div>
       </div>
     </>
   );
@@ -36,7 +43,13 @@ HomePage.propTypes = {
     src: PropTypes.string.isRequired,
     alt: PropTypes.string
   }).isRequired,
-  content: PropTypes.string.isRequired
+  content: PropTypes.string.isRequired,
+  gallery: PropTypes.arrayOf(
+    PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      alt: PropTypes.string
+    })
+  ).isRequired
 };
 
 export default HomePage;

@@ -31,12 +31,111 @@
         "src": "/img/picture.jpg",
         "alt": "BossElijah"
       },
-      "content": "<p>I'm a my-age-year-old front-end web developer who enjoys coding more than free time. Over the past few years I've spent a lot of time working with React and Drupal.</p><p>I am originally from Copenhagen (Denmark), but currently living in Prague (Czechia).</p><p>My hobbies are following:</p><ul><li>Soccer (football)</li><li>Skiing</li><li>Singing</li><li>Playing instruments</li><li>Hanging out with friends</li><li>Spending time with family</li><li>(Coding... 😀)</li></ul><p>I have two younger siblings called Micah and Josias. Micah is micah-age years old while Josias is josias-age years old. They are both still in school.</p><p>My dad, Andreas, works as a painter in a small entrepreneur company,while my mom, Anna, is working as a cheese maker.</p><h2>My compentences</h2><p>Here is a list of languages that I am used to working with.</p><ul><li>HTML</li><li>CSS / SCSS / SASS / LESS</li><li>Javascript</li><li>Typescript</li><li>PHP</li><li>Twig</li><li>YAML</li><li>JSON</li></ul><p>Here is a list of libraries that I am used to working with.</p><ul><li>Drupal (Twig, YAML, PHP)</li><li>React (JS / TS, JSON)</li></ul>"
+      "content": "<p>Welcome to my corner of the web! I'm Elias, and I'm thrilled to have you here.</p><p>Ever since I can remember, I've been captivated by the endless possibilities of technology and the boundless realms of creativity. With a deep-rooted passion for Drupal and React, I've embarked on a journey to blend artistry with innovation.</p><p>As a consultant, I thrive on the dynamic challenges and opportunities presented by each client engagement. Drawing upon my expertise in [mention your specific field or industry], I collaborate closely with organizations to develop tailored solutions that drive growth, efficiency, and innovation. Whether it's conducting in-depth analysis, devising strategic recommendations, or implementing transformative initiatives, I approach each project with dedication, creativity, and a keen eye for detail. Guided by a commitment to excellence and a passion for problem-solving, I take pride in delivering tangible results that empower my clients to thrive in today's ever-evolving business landscape.</p><p>I'm a lifelong learner, always eager to explore new horizons and embrace fresh challenges. Whether I'm coding up a storm, diving into a design project, or strategizing on the soccer field, I find fulfillment in the process of creation.</p><p>When I'm not immersed in the world of technology and creativity, you can often find me on the soccer pitch, where the camaraderie of the game fuels my competitive spirit and keeps me grounded. I also have a deep appreciation for health, frequently hitting the gym to stay active and energized.</p><p>And when it's time to unwind and reconnect with nature, I trade in my cleats for ski boots, carving up the slopes with exhilarating speed and grace. Additionally, I enjoy the adrenaline rush of paintball battles, where strategy and teamwork are paramount.</p><p>At home, I'm accompanied by my loyal companion, Boaz, my Rhodesian Ridgeback. Together, we explore the great outdoors and enjoy life's simple pleasures.</p><p>When I was 12 years old, my life took a remarkable turn as my family and I embarked on a journey that led us to the beautiful country of Czech Republic. Leaving behind familiar sights and sounds, we embraced a new culture, language, and way of life. This pivotal experience ignited within me a profound appreciation for diversity and adaptability, shaping me into the resilient and open-minded individual I am today. Embracing every opportunity to learn and grow, my time in Czech Republic has become an integral part of my identity, enriching my worldview and fueling my passion for exploration and discovery.</p><p>My linguistic journey reflects the diverse tapestry of my life experiences. Growing up bilingual in English and Danish provided me with a solid foundation for communication, while my time in the Czech Republic introduced me to the intricacies of the Czech language. Additionally, I've dabbled in German, adding another layer to my linguistic repertoire. Beyond these languages, I've also delved into the fascinating world of Esperanto, albeit to a lesser extent. Each language I've encountered has not only expanded my ability to connect with others but has also deepened my appreciation for the richness of global communication.</p><p>In addition to my professional endeavors and outdoor pursuits, music has always held a special place in my heart. From the melodic strumming of the guitar to the gentle keys of the piano, and the emotive expression of singing, music allows me to connect with my innermost thoughts and emotions in a profound way. Whether I'm composing my own melodies or interpreting beloved classics, the rhythmic cadence and harmonious blend of notes transport me to a world of creativity and self-expression. Playing guitar, piano, and singing are not just hobbies; they're a vital part of who I am, providing solace, inspiration, and boundless joy amidst life's journey.</p>",
+      "gallery": [
+        {
+          "src": "/img/me.jpg",
+          "alt": "Me on escalator wearing sunglasses"
+        },
+        {
+          "src": "/img/me2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me18.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me19.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me20.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me21.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me22.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/me23.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/dog.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/img/dog2.jpg",
+          "alt": ""
+        }
+      ]
     },
     {
       "path": "/projects",
       "tabTitle": "Projects | BossElijah",
       "title": "My Projects",
+      "content": "<p>Passionate about the intersection of creativity and technology, I'm constantly exploring new ways to innovate and express myself. With a background in JS and React, I thrive on challenges that push the boundaries of what's possible. Whether it's coding elegant solutions, crafting compelling stories, or diving into the latest trends, I'm always eager to learn and grow.</p><br><br>",
       "projects": [
         {
           "url": "https://bosselijah-parallax.netlify.app/",
@@ -89,7 +188,7 @@
         {
           "url": "https://boss-game-rules.github.io",
           "title": "Game Rules",
-          "text": "Here you can look up the rules for a board/card-game. This project is not done, nor further developed.",
+          "text": "Here you can look up the rules for a board/card-game. This project is neither done, nor further developed.",
           "date": "February 2022"
         },
         {
@@ -101,7 +200,7 @@
         {
           "url": "https://bosselijah-chat.netlify.app/",
           "title": "Chat program",
-          "text": "This is a chat program, that allows the user to login with their Google account, and then chat. It is built with React, Socket, and Firebase.",
+          "text": "This is a chat program, that allows the user to login with their Google account, and then chat. It is built with React, Socket, and Firebase. Right now, it doesn't allow new users, so use email \"user@example.com\" and password \"user@example.com\" to login.",
           "date": "January 2022"
         },
         {

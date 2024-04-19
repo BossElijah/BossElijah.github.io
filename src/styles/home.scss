@@ -20,4 +20,26 @@
       text-decoration: underline;
     }
   }
+
+  .content + a {
+    margin-bottom: 2rem;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    @media (min-width: 687px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery-item {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }

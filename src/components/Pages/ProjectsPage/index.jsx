@@ -2,12 +2,17 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import Teaser from '../../Teaser';
 
-const ProjectsPage = ({ tabTitle, title, projects }) => (
+const ProjectsPage = ({ tabTitle, title, content, projects }) => (
   <>
     <Helmet>
       <title>{tabTitle}</title>
     </Helmet>
     <h1>{title}</h1>
+    <div
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: content }}
+      className="content"
+    />
     {projects.map(project => (
       <Teaser key={project.url} {...project} />
     ))}
@@ -17,6 +22,7 @@ const ProjectsPage = ({ tabTitle, title, projects }) => (
 ProjectsPage.propTypes = {
   tabTitle: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
   projects: PropTypes.arrayOf(
     PropTypes.shape({
       url: PropTypes.string.isRequired,
