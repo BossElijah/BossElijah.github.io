@@ -30,7 +30,7 @@ const ContactForm = ({ success, error, labels }) => {
   });
 
   return (
-    <>
+    <div className="contact-form">
       <Formik
         initialValues={{
           name: '',
@@ -89,7 +89,7 @@ const ContactForm = ({ success, error, labels }) => {
       </Formik>
       {isSuccess === true && <p className="submit-success">{success}</p>}
       {isSuccess === false && <p className="submit-error">{error}</p>}
-    </>
+    </div>
   );
 };
 

@@ -30,22 +30,29 @@ header {
     display: flex;
     list-style: none;
     height: 100%;
+    padding-right: 0.5rem;
 
     li {
       height: 100%;
 
       a {
-        padding: 0 1.5rem;
+        padding: 0 0.5rem;
         height: 100%;
         display: flex;
         align-items: center;
         color: #fff;
         text-decoration: none;
-        transition: text-decoration-color 0.15s ease, color 0.15s ease;
+        transition:
+          text-decoration-color 0.15s ease,
+          color 0.15s ease;
         text-decoration: underline;
         text-underline-offset: 8px;
         text-decoration-thickness: 2px;
         text-decoration-color: transparent;
+        @media (min-width: 687px) {
+          padding: 0 1.5rem;
+        }
+
         &.active,
         &:hover {
           text-decoration-color: inherit;

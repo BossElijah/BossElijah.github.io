@@ -20,7 +20,7 @@ const PageNotFound = () => (
       <p className="output">
         Please try to <Link to="/">return to the homepage</Link>.
       </p>
-      <p className="output">Good luck.</p>
+      <p className="output">Good luck! — BossElijah</p>
     </div>
   </>
 );

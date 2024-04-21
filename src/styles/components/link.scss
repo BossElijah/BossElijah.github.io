@@ -1,0 +1,15 @@
+.link {
+  box-shadow: 0 0 4px #333;
+  color: #333;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    text-decoration: underline;
+    box-shadow: 0 0 6px #333;
+  }
+}

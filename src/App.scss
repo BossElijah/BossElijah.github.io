@@ -1,7 +1,11 @@
 @import './styles/base';
-@import 'styles/contact';
-@import 'styles/footer';
 @import 'styles/header';
-@import 'styles/home';
-@import 'styles/projects';
+@import 'styles/footer';
 @import 'styles/pageNotFound';
+@import 'styles/page';
+
+// Components.
+@import 'styles/components/gallery';
+@import 'styles/components/teaser';
+@import 'styles/components/form';
+@import 'styles/components/link';
