@@ -22,7 +22,7 @@ const Footer = ({ socialMedia }) => {
     <footer>
       <div className="copyright">
         Copyright &copy; {new Date().getFullYear()} –{' '}
-        <Link className="link" to="/">
+        <Link className="footer-link" to="/">
           BossElijah
         </Link>
       </div>
