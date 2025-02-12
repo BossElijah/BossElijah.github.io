@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import ContactForm from './Form';
-import Gallery from './Gallery';
+// import Gallery from './Gallery';
 import LinkComponent from './LinkComponent';
 import RichText from './RichText';
 import Teaser from './Teaser';
@@ -22,7 +22,9 @@ const Page = ({ title, tabTitle, components }) => (
           case 'link':
             return <LinkComponent {...item} />;
           case 'gallery':
-            return <Gallery {...item} />;
+            // No gallery since I changed my mind about having pictures if myself there.
+            return null;
+            // return <Gallery {...item} />;
           case 'contactForm':
             return <ContactForm {...item} />;
           default:
